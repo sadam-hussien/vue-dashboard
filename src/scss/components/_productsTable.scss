@@ -1,0 +1,36 @@
+.table_title {
+    color: $menuColor;
+    margin-bottom: $m_d;
+}
+.products_table {
+    * {
+        border-color: rgba($menuColor, .3) !important;
+        white-space: nowrap;
+    }
+
+    th {
+        color: $fourthColor;
+        text-transform: capitalize;
+        
+    }
+
+
+    td {
+        color: $mainColor;
+        font-size: $m_f;
+        vertical-align: middle;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background: $lightWhite;
+    }
+
+    .td_edit, .td_delete {
+        button {
+            background: transparent;
+            color: $fourthColor;
+            border: none !important;
+            font-size: $l_f;
+        }
+    }
+}

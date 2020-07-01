@@ -1,0 +1,74 @@
+.dashboard {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: $fourthColor;
+    }
+
+    // start statistics
+    .statistics {
+        padding: $m_d;
+        background: $white;
+        box-shadow: 0 0 10px rgba($dark, .3);
+        border-radius: 10px;
+        position: relative;
+
+        // start statis_precent
+        .statis_precent {
+            position: absolute;
+            top: $m_d;
+            left: $m_d;
+            display: flex;
+            align-items: center;
+            i {
+                transform: rotate(45deg);
+                margin-right: $s_d;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+                font-size: $s_f;
+            }
+        }
+        // ==== end statis_precent
+
+        // start statis_footer
+        .statis_footer {
+            margin-top: $m_d;
+
+            .icon {
+                $w: 50px;
+                margin-right: $m_d;
+                width: $w;
+                height: $w;
+                border-radius: 10px;
+                font-size: $l_f;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .detail {
+                .name {
+                    color: $menuColor;
+                    text-transform: capitalize;
+                }
+                .num {
+                    color: $dark;
+                }
+            }
+
+        }
+        // ==== end statis_footer
+
+    }
+    // ==== end statistics
+}

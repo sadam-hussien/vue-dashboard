@@ -1,0 +1,17 @@
+body {
+    font-family: $global_font;
+    overflow-x: hidden;
+}
+
+.head_font {
+    font-family: $head_font;
+}
+
+.padding_sec {
+    padding-top: $l_d;
+    padding-bottom: $l_d;
+}
+
+a:hover {
+    text-decoration: none;
+}

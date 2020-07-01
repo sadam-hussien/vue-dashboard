@@ -1,0 +1,19 @@
+.products {
+    min-height: 80vh;
+
+    .table_head {
+        margin-bottom: $m_d;
+        .table_title {
+            margin-bottom: 0 !important;
+
+        }
+        button {
+            background: $fourthColor;
+            color: $white;
+            border: 1px solid $fourthColor;
+            border-radius: 20px;
+            height: $btn_height;
+            padding: 0 $m_d;
+        }
+    }
+}

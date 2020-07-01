@@ -1,0 +1,49 @@
+{
+    "lastProducts": [
+        {
+            "id":1,
+            "product_img": "https://i.postimg.cc/cLZsYq0J/1.png",
+            "product_status": "جديد",
+            "product_name": "فستان افراح",
+            "product_price": "350جنيه",
+            "product_desc": "وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر ونحرص ع ان يكون وصف راقي من كلمات تخضع لها القلوب وتلمع لها العينين",
+            "colors": ["#1abc9c", "#8e44ad", "#000"]
+        },
+        {
+            "id":2,
+            "product_img": "https://i.postimg.cc/3wf7Pdpy/2.png",
+            "product_status": "جديد",
+            "product_name": "فستان افراح",
+            "product_price": "300جنيه",
+            "product_desc": "وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر",
+            "colors": ["#2980b9", "#c0392b", "#2c3e50"]
+        },
+        {
+            "id":3,
+            "product_img": "https://i.postimg.cc/SRCh2dP8/5.png",
+            "product_status": "جديد",
+            "product_name": "فستان افراح",
+            "product_price": "250جنيه",
+            "product_desc": "وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر",
+            "colors": ["#1abc9c", "#8e44ad", "#000"]
+        },
+        {
+            "id":4,
+            "product_img": "https://i.postimg.cc/wTNK0w0s/0.png",
+            "product_status": "جديد",
+            "product_name": "فستان افراح",
+            "product_price": "150جنيه",
+            "product_desc": "وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر",
+            "colors": ["#2980b9", "#c0392b", "#2c3e50"]
+        },
+        {
+            "id":5,
+            "product_img": "https://i.postimg.cc/cLZsYq0J/1.png",
+            "product_status": "جديد",
+            "product_name": "فستان افراح",
+            "product_price": "350جنيه",
+            "product_desc": "وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر وصف المنتج لا يتجاوز ثلاثة اسطر",
+            "colors": ["#1abc9c", "#8e44ad", "#000"]
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+.product_modal {
+    background: rgba($white, .6);
+    z-index: 9999;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    // start product_modal_content
+    .product_modal_content {
+        background: $fourthColor;
+        padding: $m_d;
+        box-shadow: 0 0 10px rgba($dark, .5);
+        border-radius: 5px;
+        max-height: 90vh;
+        overflow-y: auto;
+
+        // start head_area
+        .head_area {
+            margin-bottom: $m_d;
+            color: $white;
+            padding-bottom: $m_d;
+            position: relative;
+
+            &::after {
+                content: "";
+                display: inline-block;
+                height: 2px;
+                width: 40px;
+                background: rgba($white, .8);
+                margin-left: $s_d;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: rgba($white, .6);
+                width: 100%;
+                height: 1px;
+            }
+        }
+        // === end head_area
+
+        // start body_area
+        .body_area {
+            .form-group {
+                position: relative;
+                margin-bottom: $m_d;
+            }
+            label {
+                min-width: 100px;
+                text-transform: capitalize;
+                color: $white;
+
+                &::after {
+                    content: ":";
+                    color: $white;
+                    float: right;
+                    margin-right: $m_d;
+                }
+            } 
+            .vc-sketch {
+                width: 100%;
+            }
+            textarea {
+                min-height: 120px;
+            }
+            .btn_pick {
+                $w: 50px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: $w;
+                height: $w;
+                border-radius: 50%;
+                background: $white;
+                color: $thirdColor;
+                border: 1px solid $white;
+                box-shadow: 0 0 10px rgba($dark, .2);
+                transition: all .5s;
+
+                &:focus {
+                    outline: none;
+                    transform: rotate(360deg);
+                }
+                &:hover {
+                    background: $thirdColor;
+                    color: $white;
+                }
+            }
+
+            // start picked_colors
+            .picked_colors {
+                margin-bottom: $m_d;
+                li {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    color: $white;
+                    box-shadow: 0 0 10px rgba($dark, .4);
+
+                    i {
+                        opacity: 0;
+                        transition: opacity .5s;
+                    }
+
+                    &:hover {
+                        i {
+                            opacity: 1;
+                        }
+                    }
+
+                    &:not(:last-of-type) {
+                        margin-right: $m_d;
+                    }
+                }
+            }
+            // === end picked_colors
+
+        }
+        // ==== end body_area
+
+        // start footer_area
+        .footer_area {
+            display: flex;
+            justify-content: flex-end;
+            button {
+                height: $btn_height;
+                width: $btn_width;
+                border-radius: 20px;
+                background: $thirdColor;
+                text-transform: capitalize;
+                font-family: $head_font;
+                border: 1px solid $thirdColor;
+                color: $white;
+                transition: all .5s;
+                &:not(:last-of-type) {
+                    margin-right: $m_d;
+                    background: $white;
+                    color: $thirdColor;
+                    border: 1px solid $white;
+                }
+
+                &:hover {
+                    background: transparent;
+                    color: $white;
+                    
+                }
+
+                
+            }
+        }
+        // ==== end footer_area
+
+    }
+    // ==== end product_modal_content
+
+}

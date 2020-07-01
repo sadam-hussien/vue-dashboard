@@ -1,0 +1,102 @@
+.main-header {
+    background: $fourthColor;
+    padding: $m_d 0;
+
+    // start top-area
+    .top-area {
+        margin-bottom: $m_d;
+
+        // start logo
+        .logo {
+            color: $white;
+        }
+        // ==== end logo
+
+        // start person-area
+        .person-area {
+            ul {
+                li {
+                    color: $white;
+                    cursor: pointer;
+                    &:not(:last-of-type) {
+                        margin-right: $m_d;
+                    }
+
+                    &.notific {
+                        i {
+                            font-size: 20px;
+                        }
+
+                        .dropdown-toggle {
+                            &::after {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    img {
+                        border-radius: 50%;
+                        max-width: 45px;
+                        margin-right: 5px;
+                    }
+
+                    .notific-num {
+                        border-radius: 50%;
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        position: absolute;
+                        top: 2px;
+                        right: 2px;
+                        background: $thirdColor;
+                        box-shadow: 0 0 0 2px $fourthColor;
+                    }
+                }
+
+            }
+        }
+        // ==== end person-area
+    }
+    // ==== end top-area
+
+    // start menu
+    .menu {
+        @media (max-width: 767px) {
+            margin-bottom: $m_d;
+        }
+        ul {
+            li {
+                &:not(:last-of-type) {
+                    margin-right: $m_d;
+                }
+                a {
+                    padding: 0;
+                    background: transparent;
+                    color: $white;
+                    letter-spacing: 1px;
+                    font-size: $s_f;
+
+                    &.router-link-active {
+                        padding: $s_d $m_d 12px;
+                        background: rgba($thirdColor, 1);
+                        border-radius: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+    // ==== end menu
+
+    // start search-area
+    .search-area {
+        input {
+            min-width: 400px;
+            @media (max-width: 576px) {
+                min-width: auto;
+            }
+        }
+    }
+    // === end search-area
+
+}
