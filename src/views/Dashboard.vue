@@ -8,7 +8,7 @@
 
                     <div class="row">
 
-                        <div class="col">
+                        <div class="col-md-6 col-lg-4">
                             <div class="statistics">
                                 <area-chart 
                                 height="200px"
@@ -55,7 +55,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col-md-6 col-lg-4">
                             <div class="statistics">
                                 <area-chart 
                                 height="200px"
@@ -100,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col-md-6 col-lg-4">
                             <div class="statistics">
                                 <area-chart 
                                 height="200px"

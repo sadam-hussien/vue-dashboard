@@ -10,6 +10,12 @@
         background: $fourthColor;
     }
 
+    @media (max-width: 991px) {
+        &::before {
+            height: 20%;
+        }
+    }
+
     // start statistics
     .statistics {
         padding: $m_d;
@@ -17,6 +23,10 @@
         box-shadow: 0 0 10px rgba($dark, .3);
         border-radius: 10px;
         position: relative;
+
+        @media (max-width: 991px) {
+            margin-bottom: $l_d;
+        }
 
         // start statis_precent
         .statis_precent {
